@@ -1,21 +1,13 @@
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
 
-:root {
-  --background: #ffffff;
-  --foreground: #171717;
-}
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
+
+@font-face {
+  font-family: 'avenir_book';
+  src: url('../../public/fonts/avenir_book.ttf') format('ttf');
+  font-weight: normal;
+  font-style: normal;
 }
 
 body {
-  color: var(--foreground);
-  background: var(--background);
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: 'avenir_book', sans-serif;
 }
